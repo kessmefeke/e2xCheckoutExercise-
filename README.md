@@ -8,8 +8,10 @@ might need to configure tools.jar on pom.xml
 
 ---------------- RUNNING TESTS --------------------
 
-Pull the framework to your local directory of choice 
-Open command prompt cd to the directory where the framework is located do 
+Pull the framework to your local directory of choice.
+- If running locally from an IDE like eclipse navigate to >>src/test/java>>testRunner/TestRun
+- Rightclick and run as JUNIT test
+If want to run from command >> Open command prompt cd to the directory where the framework is located do 
 "mvn compile" (to compile the framework and download all dependencies) 
 do "mvn install test" (to run all tests) 
 To view TEST REPORT go to -> {user.dir}/test-outout/report.html. 
@@ -25,4 +27,4 @@ and could cause conflict, for this exercise versions 6.10.4 is used.
 
 Page object model was applied for easy maintainability 
 A waithelper utitliy file added for global handling of wait times for element. 
-For reports after run refresh test output folder for version of HTML reports.
+For reports after test has ran refresh test output folder for version of HTML reports.
